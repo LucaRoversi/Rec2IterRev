@@ -2,7 +2,7 @@ package rec2iterProdCons;
 
 public class Inject {
 
-  private int xInitial = -10;
+  private int xInitial = 0;
   private boolean notSet = true;
 
   private void p(String who, String where, String what) {
