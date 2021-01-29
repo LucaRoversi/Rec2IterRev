@@ -27,7 +27,7 @@ public class ItGRev {
         predNotDivX = predDivX - predNotDivX; 
       }
       
-      for (int j = 0; j < predDivX; j++) { // e > 0
+      for (int j = 0; j < predDivX; j++) {
         probe.put(g);
         for (int i = 0; i <= w; i++) {
           x = Pred.predInv(x);

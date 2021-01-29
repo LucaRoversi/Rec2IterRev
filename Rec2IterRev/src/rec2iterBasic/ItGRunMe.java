@@ -12,7 +12,7 @@ public class ItGRunMe {
 
   public static void main(String[] args) {
     final RecG f = new RecG();
-    int in=7;
+    int in=3;
     System.out.println("f.recF("+in+")="+f.recG(in));
     System.out.println("ItF("+in+")="+itG(in));
   }
@@ -26,7 +26,6 @@ public class ItGRunMe {
         else if (x == 0) { e++; } 
         else             { s++; }
         x = Pred.pred(x);
-        System.out.println("1.x="+x+",s="+s+",e="+e+",g="+g+",w="+w);
       }
 
       for (int i = 0; i < e; i++) {
@@ -35,9 +34,7 @@ public class ItGRunMe {
       }
 
       for (int j = 0; j < predDivX; j++) { // e > 0
-        System.out.println("predDivX");
         for (int i = 0; i <= w; i++) {
-          System.out.println("3.x="+x+",s="+s+",e="+e+",g="+g+",w="+w);
           x = Pred.predInv(x);
           if      (x >  0) { g--; y = H.h(x, y); } 
           else if (x == 0) { e--; y = B.b(x);    } 
@@ -46,10 +43,8 @@ public class ItGRunMe {
       }
 
       for (int j = 0; j < predNotDivX; j++) {
-        System.out.println("predNotDivX");
         w++;
         for (int i = 0; i <= w; i++) {
-            System.out.println("3.x="+x+",s="+s+",e="+e+",g="+g+",w="+w+",z="+z);
           x = Pred.predInv(x);
           if      (x >  0) { g--;
                              x = Pred.pred(x);

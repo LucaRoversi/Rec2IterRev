@@ -12,7 +12,7 @@ public class RunMe {
 
   public static void main(String[] args) {
 	
-    final int in = 17;
+    final int in = 3;
 
     final RecG f = new RecG();
     System.out.println("Final value of recF(" + in + ") = " + f.recF(in));
