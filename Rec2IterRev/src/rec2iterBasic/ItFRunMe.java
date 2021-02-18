@@ -1,15 +1,18 @@
 package rec2iterBasic;
 
 /**
- * Defines a full JAVA method that implements Listing 1.3, named itF, iterative
- * implementation of recF. The assumption is that Pred.pred(0) divides x.
+ * Defines a full JAVA method that implements 
+ * Listing 1.3, in the paper of reference
+ * "Interleaving classical and reversible"
+ * by Matos, Polini, Roversi
  * 
  * @author roversi@di.unito.it
+ * Released under  Open Software License 3.0 (OSL-3.0) (https://opensource.org/licenses/OSL-3.0)
  */
 
 public class ItFRunMe {
 	
-  static final int x = 4;
+  static final int x = 10;
 
   public static void main(String[] args) {
 	

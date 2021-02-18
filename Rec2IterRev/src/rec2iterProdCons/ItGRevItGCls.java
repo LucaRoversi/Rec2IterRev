@@ -9,6 +9,7 @@ package rec2iterProdCons;
  * It implements all the details relative to Section.
  * 
  * @author roversi@di.unito.it
+ * Released under  Open Software License 3.0 (OSL-3.0) (https://opensource.org/licenses/OSL-3.0)
  */
 
 public class ItGRevItGCls {

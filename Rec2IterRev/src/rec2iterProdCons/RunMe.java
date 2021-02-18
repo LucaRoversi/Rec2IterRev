@@ -4,6 +4,9 @@ package rec2iterProdCons;
  * Test the Producer/Consumer template that
  * class ItGRevItGCls implements, and compare
  * it with the output of RecG.
+ * Paper of reference:
+ * "Interleaving classical and reversible"
+ * by Matos, Polini, Roversi
  * 
  * @author roversi@di.unito.it
  */
